@@ -1,6 +1,6 @@
 class GFG {
     static int MOD = 1000000007;
-    int pow(int x,int y,int p){
+    int power(int x,int y,int p){
         int res=1;
         x=x%p;
         while(y>0){
